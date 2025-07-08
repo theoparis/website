@@ -5,7 +5,7 @@
 
 <header>
   <div class="container header-content">
-    <div class="logo">Theo Paris Designs</div>
+    <div class="logo">Theo Paris</div>
     <nav>
       <!-- svelte-ignore a11y-invalid-attribute -->
       <a
@@ -13,13 +13,6 @@
         on:click|preventDefault={() => onNavigate("home")}
         class:active={currentView === "home"}>Home</a
       >
-      <!-- svelte-ignore a11y-invalid-attribute -->
-      <a
-        href="#"
-        on:click|preventDefault={() => onNavigate("about")}
-        class:active={currentView === "about"}>About</a
-      >
-      <!-- Add more links here if needed, e.g., Projects, Contact -->
     </nav>
   </div>
   <div class="header-line"></div>

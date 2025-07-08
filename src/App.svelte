@@ -1,6 +1,5 @@
 <script lang="ts">
     import Header from "./components/Header.svelte";
-    import Home from "./pages/Home.svelte";
     import About from "./pages/About.svelte";
 
     let currentView = "home"; // 'home' or 'about'
@@ -19,11 +18,7 @@
     <Header {currentView} onNavigate={navigateTo} />
 
     <main>
-        {#if currentView === "home"}
-            <Home onNavigate={navigateTo} />
-        {:else if currentView === "about"}
-            <About />
-        {/if}
+        <About />
         <!-- Add more views here with {:else if ...} -->
     </main>
 
