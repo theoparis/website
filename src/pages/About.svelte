@@ -32,7 +32,7 @@
 
     <section class="content-section">
         <p>
-            My name is Theo. I am 20 years old and I love programming and
+            My name is Theo. I am 21 years old and I love programming and
             producing music! My favorite video game is Minecraft.
         </p>
     </section>
